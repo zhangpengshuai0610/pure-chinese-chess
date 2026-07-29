@@ -21,7 +21,7 @@ export default function GameLayout() {
     <div className="flex flex-col items-center gap-4 p-4 min-h-screen">
       {/* Title */}
       <h1 className="text-3xl font-bold text-amber-800 dark:text-amber-400 tracking-wide select-none mt-1">
-        🀄 中国象棋
+        🀄 Pure Chinese Chess
       </h1>
 
       {/* Hint instruction banner */}

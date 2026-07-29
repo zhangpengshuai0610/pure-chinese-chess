@@ -77,7 +77,8 @@
       "Bash(mv docs_superpowers_back/specs docs/superpowers/specs)",
       "Bash(rmdir docs_superpowers_back)",
       "Bash(cp -r docs_superpowers_back)",
-      "Bash(git show *)"
+      "Bash(git show *)",
+      "Bash(rm -rf docs/assets)"
     ]
   }
 }
