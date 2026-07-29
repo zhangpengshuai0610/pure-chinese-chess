@@ -78,7 +78,8 @@
       "Bash(rmdir docs_superpowers_back)",
       "Bash(cp -r docs_superpowers_back)",
       "Bash(git show *)",
-      "Bash(rm -rf docs/assets)"
+      "Bash(rm -rf docs/assets)",
+      "Bash(cp -r dist/assets/* docs/assets/)"
     ]
   }
 }
