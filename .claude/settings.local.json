@@ -95,7 +95,9 @@
       "Bash(git pull *)",
       "Bash(curl -s --insecure -o /dev/null -w \"%{http_code}\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-D8od10mF.js)",
       "Bash(curl -s --insecure -o /dev/null -w \"JS:%{http_code} CSS:%{http_code}\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-Bxkk-wVX.js)",
-      "Bash(curl -s --insecure -o /dev/null -w \"\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-fYC6IsPh.css)"
+      "Bash(curl -s --insecure -o /dev/null -w \"\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-fYC6IsPh.css)",
+      "Bash(ping -n 2 github.com)",
+      "Bash(curl -v --connect-timeout 10 https://github.com)"
     ]
   }
 }
