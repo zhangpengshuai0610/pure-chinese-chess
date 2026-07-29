@@ -63,7 +63,13 @@
       "Bash(cp -r dist docs)",
       "Bash(mkdir -p docs)",
       "Bash(cp -r dist/* docs/)",
-      "Bash(cp dist/index.html docs/)"
+      "Bash(cp dist/index.html docs/)",
+      "Bash(curl -s --insecure -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/chinese-chess/)",
+      "Bash(mv docs.bak/* docs/)",
+      "Bash(rm -rf docs/assets docs/superpowers)",
+      "Bash(mkdir docs *)",
+      "Bash(cp -r dist/assets docs/)",
+      "Bash(rm -rf docs/superpowers docs/dist docs/icons.svg docs/favicon.svg)"
     ]
   }
 }
