@@ -91,7 +91,9 @@
       "Bash(curl -s --insecure -o /dev/null -w \"%{http_code}\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-Bxkk-wVX.js)",
       "Bash(base64 -w0 docs/assets/index-Bxkk-wVX.js)",
       "Bash(rm docs/assets/index-BYHSTve1.js)",
-      "Bash(rm -rf docs/assets/)"
+      "Bash(rm -rf docs/assets/)",
+      "Bash(git pull *)",
+      "Bash(curl -s --insecure -o /dev/null -w \"%{http_code}\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-D8od10mF.js)"
     ]
   }
 }
