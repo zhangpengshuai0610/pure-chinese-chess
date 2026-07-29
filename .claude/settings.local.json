@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(cp -r temp-chess/* temp-chess/.* .)",
+      "Bash(rm -rf temp-chess)",
+      "Bash(cp -r temp-chess/.[!.]* .)",
+      "Bash(cp -r temp-chess/* .)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(vercel --version)",
+      "Bash(npm i *)",
+      "Bash(npm approve-scripts *)",
+      "Bash(vercel --cwd . --yes)",
+      "Bash(vercel login *)",
+      "Bash(vercel --cwd . --yes --name chinese-chess)",
+      "Bash(vercel --cwd . --yes --prod)",
+      "Bash(vercel alias *)",
+      "Bash(vercel list *)",
+      "Bash(vercel promote *)",
+      "Bash(curl *)",
+      "WebFetch(domain:chinese-chess-delta.vercel.app)",
+      "Bash(nslookup *)",
+      "Bash(ping -n 1 199.59.148.201)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)"
+    ]
+  }
+}
