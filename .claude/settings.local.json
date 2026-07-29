@@ -60,7 +60,10 @@
       "Bash(npx serve *)",
       "Bash(rm -rf docs.bak)",
       "Bash(mv docs *)",
-      "Bash(cp -r dist docs)"
+      "Bash(cp -r dist docs)",
+      "Bash(mkdir -p docs)",
+      "Bash(cp -r dist/* docs/)",
+      "Bash(cp dist/index.html docs/)"
     ]
   }
 }
