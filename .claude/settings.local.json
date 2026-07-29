@@ -41,7 +41,26 @@
       "WebFetch(domain:zhangpengshuai0610.github.io)",
       "Bash(curl http://zhangpengshuai0610.github.io/chinese-chess/ --connect-timeout 10 -L)",
       "Bash(npx vite *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(GIT_CURL_VERBOSE=1 GIT_TRACE=1 git push origin master)",
+      "Bash(jobs)",
+      "Bash(kill %1)",
+      "Bash(gh auth *、)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://zhangpengshuai0610.github.io/chinese-chess/)",
+      "Bash(gh run *)",
+      "Bash(gh workflow *)",
+      "Bash(curl -v --connect-timeout 15 https://185.199.111.153/ -H \"Host: zhangpengshuai0610.github.io\" -H \"Accept: text/html\")",
+      "Bash(curl -v --connect-timeout 15 --insecure https://185.199.111.153/ -H \"Host: zhangpengshuai0610.github.io\")",
+      "Bash(curl -v --connect-timeout 15 --insecure https://185.199.111.153/chinese-chess/ -H \"Host: zhangpengshuai0610.github.io\")",
+      "Bash(git fetch *)",
+      "Bash(git checkout *)",
+      "Bash(git stash *)",
+      "Bash(curl -s -L -X PUT -H \"Authorization: token $\\(gh auth token\\)\" -H \"Accept: application/vnd.github+json\" \"https://api.github.com/repos/zhangpengshuai0610/chinese-chess/pages\" -d '{\"source\":{\"branch\":\"gh-pages\",\"path\":\"/\"}}')",
+      "Bash(curl -s --insecure -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/ -o /dev/null -w \"%{http_code}\")",
+      "Bash(npx serve *)",
+      "Bash(rm -rf docs.bak)",
+      "Bash(mv docs *)",
+      "Bash(cp -r dist docs)"
     ]
   }
 }
