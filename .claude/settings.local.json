@@ -82,7 +82,16 @@
       "Bash(cp -r dist/assets/* docs/assets/)",
       "Bash(git remote *)",
       "Bash(GIT_SSH_COMMAND=\"ssh -o StrictHostKeyChecking=no -o ConnectTimeout=10\" git push origin master)",
-      "Bash(rm -rf docs/assets docs/index.html)"
+      "Bash(rm -rf docs/assets docs/index.html)",
+      "Bash(curl -s --insecure -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/)",
+      "Bash(curl -s --insecure -o /dev/null -w \"%{http_code}\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/)",
+      "Bash(curl -s --insecure -o /dev/null -w \"HTML:%{http_code} \" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/)",
+      "Bash(curl -s --insecure -o /dev/null -w \"JS:%{http_code} \" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-Bxkk-wVX.js)",
+      "Bash(curl -s --insecure -o /dev/null -w \"CSS:%{http_code}\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-fYC6IsPh.css)",
+      "Bash(curl -s --insecure -o /dev/null -w \"%{http_code}\" -H \"Host: zhangpengshuai0610.github.io\" https://185.199.110.153/pure-chinese-chess/assets/index-Bxkk-wVX.js)",
+      "Bash(base64 -w0 docs/assets/index-Bxkk-wVX.js)",
+      "Bash(rm docs/assets/index-BYHSTve1.js)",
+      "Bash(rm -rf docs/assets/)"
     ]
   }
 }
