@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/chinese-chess/',
+  base: '/pure-chinese-chess/',
   plugins: [react(), tailwindcss()],
 })
